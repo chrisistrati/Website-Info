@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(76, 76, 76);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li {
+    float: none;
+    display: inline-block;
+}
+
+li a:hover:not(.active) {
+    color: #111;
+}
+
+.active{
+    color: #111;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 1000;
+}
