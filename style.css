@@ -10,6 +10,7 @@ ul {
     display: flex;
   }
   
+  
   li a {
     display: block;
     color: rgb(76, 76, 76);
@@ -18,49 +19,114 @@ ul {
     text-decoration: none;
   }
   
-li {
+  
+  li {
     float: none;
     display: inline-block;
-}
-
-li a:hover:not(.active) {
+  }
+  
+  
+  li a:hover:not(.active) {
     color: #111;
-}
-
-.active{
+  }
+  
+  
+  .active{
     color: #111;
-}
-
-h1 {
+  }
+  
+  
+  h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-weight: 1000;
-}
-
-p{
+  }
+  
+  
+  p{
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     font-size: 20px;
-}
-
-.rainbow{
-    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.homeimg{
+  }
+  
+  
+  .rainbow{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  
+  .homeimg{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 570px;
     height: 450px;
     transition: 5s;
-}
-
-.homeimg:hover {
+  }
+  
+  
+  .homeimg:hover {
     width: 1500px;
     transition: 5s;
+  }
+  
+  
+  .F1{
+    margin-left: 5%;
+    width: 40%;
+    margin-bottom: 1%;
+  }
+  
+  
+  .F1p{
+    align-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  
+  
+  }
+  
+  
+  .flex_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+  }
+  
+  
+  .max{
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 1%;
+  }
+  
+  
+  .flex_container2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2%;
+  }
+  
+
+.gallery1{
+    margin-left: 4.9%;
+    margin-right: 4.3%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.gallery1::-webkit-scrollbar {
+    display: none;
+}
+
+.img{
+    border-radius: 8px;
+    margin: 3px;
 }
