@@ -73,7 +73,7 @@ ul {
     transition: 5s;
   }
   
-.gallery1{
+.track1{
     margin-left: 4.9%;
     margin-right: 4.3%;
     margin-top: 1%;
@@ -81,15 +81,25 @@ ul {
     flex-direction: row;
     overflow: scroll;
     scroll-behavior: smooth;
+    border-radius: 8px;
 }
 
-.gallery1::-webkit-scrollbar {
+.track1::-webkit-scrollbar {
     display: none;
 }
 
 .img{
     border-radius: 8px;
-    margin: 3px;
+    margin: 6px;
+    transition: 0.3s;
+    height: 400px;
+    opacity: 0.9;
+}
+
+.img:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    opacity: 1;
 }
 
 .container {
