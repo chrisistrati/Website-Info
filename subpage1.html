@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>Formula 1</title>
+    <title>Articles</title>
     <link rel="icon" type="image/x-icon" href="https://preview.redd.it/im-looking-for-an-emoticon-like-this-i-looked-everywhere-v0-edwtnntfxs3e1.png?width=640&crop=smart&auto=webp&s=e951a6cbb6b0282166cf7f5fdc2f288a2c7947f8">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
@@ -14,15 +14,12 @@
 
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="subpage1.html">Articles</a></li>
+        <li><a href="subpage1.html">Articles    </a></li>
         <li class="active"><a href="subpage2.html">Gallery</a></li>
         <li><a href="aboutus.html">About Us</a></li>
     </ul>
 
     <div class="all">
-
-        <button id="prev-btn">Last</button>
-
         <div class="container">
             <a href="#" class="link-wrapper" id="carousel-link" target="_blank">
                 <div id="carousel-div" class="centered-content">
@@ -32,7 +29,10 @@
             </a>
         </div>
 
-        <button id="next-btn">Next</button>
+    <div class="buttons">
+        <button id="prev-btn" style="margin-right: 5%;">Last</button>
+        <button id="next-btn" style="margin-left: 5%;">Next</button>
+    </div>
 
     </div>
 
@@ -41,7 +41,7 @@
                 { src: "https://i.pinimg.com/736x/32/d9/c9/32d9c97e590c38509259e090dbd9d12c.jpg", text: "Charles Leclers gets a historic win in his home race of Monaco", link:"https://www.nytimes.com/athletic/5520279/2024/05/26/charles-leclerc-f1-monaco-gp-results/" }, // Image 1 and text
                 { src: "https://cdn.cfr.org/sites/default/files/styles/slide_3_2/public/image/2025/04/2025-04-03T235237Z_834500870_RC2XPDADE340_RTRMADP_3_USA-TRUMP-TARIFFS-LAWSUIT.webp", text: "Trump imposes new tariffs on China, Canada and EU", link:"https://www.cnbc.com/2025/04/10/china-trump-tariffs-live-updates.html" }, // Image 2 and text
                 { src: "https://i.pinimg.com/736x/ad/6a/89/ad6a89ce8e52d3f01e9e3b6b5c38f754.jpg", text: "Frank Ocean hints new album on Instagram", link:"https://www.vibe.com/music/music-news/frank-ocean-dropping-new-album-1235060914/" }, // Image 3 and text
-                { src: "https://cdn.nba.com/teams/uploads/sites/1610612747/2025/03/2425_lal_highlight_thumb_250228_lebron_2000.jpg", text:"Lebron James addresses viral TikTok meme about himself", link:"https://timesofindia.indiatimes.com/sports/nba/top-stories/lebron-james-candidly-shared-his-reaction-to-the-viral-tiktok-songs-dedicated-to-his-legacy-had-a-good-laugh-out-of-it/articleshow/119870428.cms" }  // Image 4 and text
+                { src: "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2203494286_large_cropped_0.jpg  ", text:"Lebron James addresses viral TikTok meme about himself", link:"https://timesofindia.indiatimes.com/sports/nba/top-stories/lebron-james-candidly-shared-his-reaction-to-the-viral-tiktok-songs-dedicated-to-his-legacy-had-a-good-laugh-out-of-it/articleshow/119870428.cms" }  // Image 4 and text
             ];
 
             let currentIndex = Math.floor(Math.random() * images.length);
@@ -106,4 +106,11 @@
 
 
 </body>
+
+<footer>
+    <p>© 2025 My Personal Website. All rights reserved.</p>
+    <p>Created by Istrati Cristian</p>
+    <p>Contact: chris.istrati246@gmail.com</p>
+</footer>
+
 </html>

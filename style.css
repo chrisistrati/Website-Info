@@ -30,11 +30,18 @@ ul {
     color: #111;
   }
   
+  ::selection {
+    background: #a0a0a0;
+    color: white;
+  }
   
   .active{
     color: #111;
   }
   
+  ::-webkit-scrollbar {
+    display: none;
+}
   
   h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -48,13 +55,14 @@ ul {
     padding: 0;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
   }
   
   
   .rainbow{
     margin-left: 10%;
     margin-right: 10%;
+    font-size: 16px;
   }
   
   
@@ -107,8 +115,8 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding-top:5.5% ;
-  padding-bottom: 5%;
+  padding-top:3.5% ;
+  /* padding-bottom: 5%; */
   transition: 0.3s;
 }
 
@@ -163,9 +171,9 @@ ul {
 
 
 button {
-  background-color: white;
-  border: none;
-  color: #ffffff;
+  /* background-color: white; */
+  border: #a0a0a0;
+  color: #a0a0a0;
   padding: 15px 25px;
   text-align: center;
   align-self: center;
@@ -179,13 +187,61 @@ button:hover {
   padding: 20px 30px;
   font-size: 18px;
   transition: 0.3s;
-  background-color: #a0a0a0;
+  background-color: rgb(25, 25, 25);
   color: white; 
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .all{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+footer{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width : 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 2.5%;
+}
+
+.aboutusimg{
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  margin-left: 0.4%;
+  margin-right: 0.4%;
+  transition: 0.3s;
+}
+
+.aboutusimg:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.aboutusp{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  font-size: 16px;
+}
+
+.aboutus{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
